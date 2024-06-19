@@ -11,21 +11,33 @@
     color: wheat;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px ;
+    padding: 15px 35px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 
 }
 
+.section-des {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+}
 
 /** nav related**/
 nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    margin: 0 200px ;
+    margin: 0 200px;
 }
 
 .nav-title {
-    color: var(--Dark-01, #181818);
+    color: #181818);
 
 
     font-size: 45px;
@@ -37,7 +49,7 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
-    
+
 }
 
 nav li {
@@ -50,15 +62,78 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
-/** Header related style  **/       
+
+/** Header related style  **/
 .header {
-  background-color: #FFF8F3;
+    background-color: #FFF8F3;
+    background-image: url(image1/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 .banner {
-    padding: 30px 30px 20px  150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
+
+.banner-conten {
+    min-width: 500px;
+}
+
 .profile-pic {
     width: 500px;
+}
+
+.md {
+    color: #4c4848;
+}
+
+.t {
+    color: rgb(105, 116, 109);
+}
+
+.a {
+    color: #ec9251;
+}
+
+.hossin {
+    color: rgb(207, 18, 207);
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/**main section style **/
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/** about section style**/
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.about-input-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+}
+#what-i-do-des {
+    padding: 30px 10px;
 }
