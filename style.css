@@ -66,9 +66,9 @@ nav a {
 /** Header related style  **/
 .header {
     background-color: #FFF8F3;
-    background-image: url(image1/header_bg.png);
+    background-image: url(image1/header_bg.png),url('image1/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -226,7 +226,7 @@ footer {
 
 }
 .color {
-    display: block;
+    
     color: #FFF;
 }
 .contact input  {
