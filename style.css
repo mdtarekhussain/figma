@@ -66,7 +66,7 @@ nav a {
 /** Header related style  **/
 .header {
     background-color: #FFF8F3;
-    background-image: url(image1/header_bg.png),url('image1/developer.png');
+    background-image: url(image1/header_bg.png), url('image1/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
@@ -208,6 +208,7 @@ footer {
     margin-top: 100px;
     padding: 130px 230px;
 }
+
 .social-links a {
     margin-right: 20px;
 }
@@ -217,20 +218,22 @@ footer {
 }
 
 .contact input [type="text"],
- .contact input [type="email"],
+.contact input [type="email"],
 .textarea {
-   
+
     color: #757575;
     background: rgb(185, 174, 174);
-    
-  
+
+
 
 }
+
 .color {
-    
+
     color: #FFF;
 }
-.contact input  {
+
+.contact input {
     display: block;
     margin-bottom: 25px;
     border-radius: 5px;
@@ -239,68 +242,84 @@ footer {
     width: 100%;
 
 }
+
 .plach {
     width: 100%;
     border-radius: 5px;
     padding: 18px 35px;
     border: 0;
 }
+
 /* responsive style */
 /* mobile devices*/
 .hide {
     display: none;
 }
 
-@media screen and ( max-width:576px){
+@media screen and (max-width:576px) {
     .header {
         background-image: none;
     }
-    
+
+    .color {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-top: 10px;
+     
+        
+        padding: 10px;
+    }
+
     nav,
     nav > ul,
     .banner,
-    .skills-container, 
-    .resume-container, .about-input-container,
+    .skills-container,
+    .resume-container,
+    .about-input-container,
     footer {
         flex-direction: column;
     }
-    nav > ul {
+
+    nav>ul {
         gap: 10px;
     }
+
     .banner .profile-pic {
         width: 100%;
     }
+
     .banner,
     #what-i-do-des {
         padding: 20px;
     }
-    
-    footer,.about {
+
+    footer,
+    .about {
         padding: 10px;
     }
+
     .btn-primary {
         margin-bottom: 15px;
     }
+
     .footer-column {
         width: 100%;
     }
+
     .contact {
         width: 80%;
     }
-    .about-input-container {
-        flex-direction: column;
-    }
-    .color {
-        grid-template-columns: repeat(1,1fr);
-    }
- 
+
 }
+
 @media screen and (min-width:576px) and (max-width:992px) {
     footer {
         padding: 30px;
     }
+
     .btn-primary {
         margin-bottom: 15px;
     }
-    
+
 }
