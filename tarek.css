@@ -125,7 +125,7 @@ div>input {
 .font {
     display: flex;
     margin-left: 200px;
-    
+
 }
 
 div>h2 {
@@ -154,7 +154,7 @@ div>h2 {
     height: 87px;
     top: 147px;
     left: 736px;
-    
+
     opacity: 0px;
     margin-left: 300px;
 
@@ -189,27 +189,257 @@ h4 {
     text-align: left;
     border: 2px solid tomato;
 }
-@media screen and ( max-width:576px){
-    .photo{
+
+@media screen and (max-width:576px) {
+    .photo {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
 
     }
+
     img {
         width: 100%;
     }
-    .po  {
-        margin-top:30px ;
+
+    .po {
+        margin-top: 30px;
     }
+
     #ku {
         margin-top: 5px;
     }
+
     .font {
         display: flex;
         flex-direction: column;
         margin-left: 30px;
     }
+
     .plo {
         width: 80%;
     }
+}
+
+/* test 3 */
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 200px; */
+}
+
+.nav>ul {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-left: 700px;
+    margin-right: 50px;
+    gap: 40px;
+    list-style: none;
+    color: white;
+}
+
+
+.h4 {
+    display: flex;
+    width: 102px;
+    height: 32px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* margin-top: 20px; */
+    margin-left: 30px;
+}
+
+.divb {
+    display: flex;
+    margin-top: 70px;
+    gap: 150px;
+}
+
+.div4 {
+     display: block;
+    width: 821.11px;
+    height: 586.53px;
+    top: 221px;
+    left: 1395.11px;
+    gap: px;
+    opacity: 0px;
+    border: 2px solid tomato;
+
+
+}
+
+.ud {
+    display: flex;
+}
+
+.ud>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.black {
+    background-color: black;
+}
+
+
+.bj {
+    width: 821.11px;
+    height: 586.53px;
+    top: 221px;
+    left: 1395.11px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.div4>.bj {
+    display: flex;
+    width: 737px;
+    height: 555px;
+    margin: 5px 7px 2px 10px;
+
+
+}
+
+.div4>.bj {
+    z-index: 5;
+}
+
+.div5 {
+    display: block;
+    width: 410px;
+    height: 189px;
+    margin-left: 300px;
+    margin-top: -50px;
+    border: 2px solid blue;
+    background-color: #181719;
+
+}
+
+.div3 {
+    margin-left: 50px;
+    margin-top: 150px;
+    color: #FFFFFF;
+    
+}
+
+.div5 {
+    z-index: 10px;
+}
+
+.ud>.po {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    gap: 3px;
+}
+
+
+.ll {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 287px;
+    height: 62px;
+
+
+
+
+}
+
+.ll>.gt {
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.72px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    ;
+
+}
+
+.hg {
+    width: 365px;
+    height: 61px;
+    top: 381px;
+    left: 77px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 61.44px;
+    text-align: left;
+
+}
+
+.div3 {
+    width: 410px;
+    height: 145px;
+    top: 482px;
+    left: 77px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+
+}
+h5 >iframe {
+    width: 24px;
+height: 24px;
+top: 675px;
+margin-top: 20px;
+gap: 0px;
+opacity: 0px;
+border: 2px solid lawngreen;
+
+}
+
+footer {
+    display: flex;
+    margin-top: 100px; 
+    justify-content: center;
+    align-items: center;
+}
+.as {
+    width: 287px;
+height: 17px;
+top: 1039px;
+left: 577px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: center;
+color: #A9A9A9;
+
+}
+@media screen  and (max-width:576px){
+    .nav , .nav> ul{
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+    .div4>.bj  {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
